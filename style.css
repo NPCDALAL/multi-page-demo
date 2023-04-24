@@ -1,9 +1,10 @@
-html {
-  background-image: url("https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP");
-  background-size: cover;
-}
 body {
   text-align: center;
+  border: solid;
+  background-color: aliceblue;
+  margin: 50px auto;
+  width: 500px;
+  height: 700px;
 }
 
 .nav a {
@@ -11,5 +12,27 @@ body {
 }
 
 .gray {
-  color: white;
+  color: GOLD;
+  font-family: cursive;
+}
+
+.epic {
+  position: absolute;
+  left: 5px;
+  top: 100px;
+  width: 350px;
+  height: 700px;
+}
+.dance {
+  position: absolute;
+  right: 5px;
+  top: 100px;
+  width: 350px;
+  height: 700px;
+}
+
+.quote {
+  color: maroon;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
 }
