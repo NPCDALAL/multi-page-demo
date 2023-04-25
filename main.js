@@ -55,8 +55,17 @@ function btnClicked() {
     output.innerHTML = "correct";
     numCorrect++;
   } else {
-    res = 1;
+    res4 = 1;
     document.getElementById("feedback4").innerHTML =
       "The Ender Dragon once killed drops an egg and exp points";
+  }
+  final = ((4 - res1 - res2 - res3 - res4) / 4) * 100;
+
+  fraction = 4 - res1 - res2 - res3 - res4;
+
+  if (final > 99) {
+    let msg = `you scored a ${final} aka ${fraction} making you a Minecraft SENSATION!`;
+    document.getElementById("output").innerHTML = msg;
+  } else if (final > 70) {
   }
 }
